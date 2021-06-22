@@ -18,3 +18,7 @@ section
     background-position: center;
     cursor: url('image/aim.png'), pointer;
 }
+section:active
+{
+    cursor: url('image/aim_red.png'), pointer;
+}
