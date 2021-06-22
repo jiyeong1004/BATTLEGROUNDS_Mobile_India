@@ -16,5 +16,5 @@ section
     background: url(image/bg.png);
     background-size: cover;
     background-position: center;
-    cursor: url('image/aim.png');
+    cursor: url('image/aim.png'), pointer;
 }
