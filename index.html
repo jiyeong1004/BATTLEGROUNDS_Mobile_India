@@ -17,6 +17,11 @@
                 bullet.style.left = x + 'px';
                 bullet.style.top = y + 'px';
                 body.appendChild(bullet);
+
+                // remove bullet after 4 seconds
+                setTimeout(function(){
+                    bullet.remove();
+                }, 4000);
             })
         </script>
     </body>
