@@ -22,3 +22,11 @@ section:active
 {
     cursor: url('image/aim_red.png'), pointer;
 }
+.bullet
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url(image/hole.png);
+    pointer-events: none;
+}
