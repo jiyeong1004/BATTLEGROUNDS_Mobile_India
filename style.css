@@ -29,4 +29,5 @@ section:active
     height: 40px;
     background: url(image/hole.png);
     pointer-events: none;
+    transform: translate(30px, 30px);
 }
