@@ -6,7 +6,9 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <section></section>
+        <section>
+            <audio id="audio" src="image/sound.wav" autostart="false"></audio>
+        </section>
         <script>
             document.addEventListener('click', function(e){
                 let body = document.querySelector('body');
@@ -22,6 +24,10 @@
                 setTimeout(function(){
                     bullet.remove();
                 }, 4000);
+
+                // add bullet sound on click
+                let sound = document.getElementById('audio');
+                sound.play()
             })
         </script>
     </body>
