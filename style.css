@@ -31,3 +31,14 @@ section:active
     pointer-events: none;
     transform: translate(30px, 30px);
 }
+.blood
+{
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background: #f00;
+    z-index: 1000;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
