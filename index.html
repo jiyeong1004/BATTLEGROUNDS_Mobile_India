@@ -28,6 +28,14 @@
                 // add bullet sound on click
                 let sound = document.getElementById('audio');
                 sound.play();
+
+                // appear blood on screen after click
+                let blood = document.createElement('span');
+                blood.classList.add('blood');
+
+                blood.style.left = Math.random() * innerWidth + 'px';
+                blood.style.top = Math.random() * innerHeight + 'px';
+                body.appendChild(blood);
             })
         </script>
     </body>
