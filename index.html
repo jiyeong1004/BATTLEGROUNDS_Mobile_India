@@ -20,11 +20,6 @@
                 bullet.style.top = y + 'px';
                 body.appendChild(bullet);
 
-                // remove bullet after 4 seconds
-                setTimeout(function(){
-                    bullet.remove();
-                }, 4000);
-
                 // add bullet sound on click
                 let sound = document.getElementById('audio');
                 sound.play();
@@ -36,6 +31,12 @@
                 blood.style.left = Math.random() * innerWidth + 'px';
                 blood.style.top = Math.random() * innerHeight + 'px';
                 body.appendChild(blood);
+
+                // remove bullet and blood after 4 seconds
+                setTimeout(function(){
+                    bullet.remove();
+                    blood.remove();
+                }, 4000);
             })
         </script>
     </body>
