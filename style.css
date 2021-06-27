@@ -41,4 +41,16 @@ section:active
     z-index: 1000;
     pointer-events: none;
     transform: translate(-50%, -50%);
+    animation: fadeOut 4s linear infinite;
+}
+@keyframes fadeOut
+{
+    0%, 50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
 }
