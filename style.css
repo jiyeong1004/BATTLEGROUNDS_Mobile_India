@@ -38,6 +38,7 @@ section:active
     width: 400px;
     height: 400px;
     z-index: 1000;
+    background-size: cover;
     pointer-events: none;
     transform: translate(-50%, -50%);
     animation: fadeOut 4s linear infinite;
