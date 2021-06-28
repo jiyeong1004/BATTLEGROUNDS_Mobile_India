@@ -37,7 +37,6 @@ section:active
     display: inline-block;
     width: 400px;
     height: 400px;
-    background: #f00;
     z-index: 1000;
     pointer-events: none;
     transform: translate(-50%, -50%);
